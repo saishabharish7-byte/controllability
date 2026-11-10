@@ -1,0 +1,3 @@
+network,nodes_N,edges_E,driver_nodes_ND,driver_fraction_nD,dominant_eigenvalue_real,dominant_eigenvalue_imag,eigenvalue_tolerance,rank_tolerance
+Full participant network,37,87,9,0.24324324324324326,-1.8587822493802687e-15,0.0,1e-07,1e-08
+Without currency metabolites,25,33,3,0.12,-8.294661622241525e-17,0.0,1e-07,1e-08

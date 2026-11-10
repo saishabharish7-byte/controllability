@@ -1,0 +1,26 @@
+reaction_id,pathway,substrates,products,reversible
+R01,Glycolysis,glucose,glucose-6-phosphate,false
+R02,Glycolysis,glucose-6-phosphate,fructose-6-phosphate,true
+R03,Glycolysis,fructose-6-phosphate;ATP,"fructose-1,6-bisphosphate;ADP",false
+R04,Glycolysis,"fructose-1,6-bisphosphate",glyceraldehyde-3-phosphate;dihydroxyacetone-phosphate,false
+R05,Glycolysis,dihydroxyacetone-phosphate,glyceraldehyde-3-phosphate,true
+R06,Glycolysis,glyceraldehyde-3-phosphate;NAD;phosphate,"1,3-bisphosphoglycerate;NADH",false
+R07,Glycolysis,"1,3-bisphosphoglycerate;ADP",3-phosphoglycerate;ATP,false
+R08,Glycolysis,3-phosphoglycerate,2-phosphoglycerate,true
+R09,Glycolysis,2-phosphoglycerate,phosphoenolpyruvate;water,false
+R10,Glycolysis,phosphoenolpyruvate;ADP,pyruvate;ATP,false
+R11,Pentose phosphate,glucose-6-phosphate;NADP,6-phosphogluconolactone;NADPH,false
+R12,Pentose phosphate,6-phosphogluconolactone;water,6-phosphogluconate,false
+R13,Pentose phosphate,6-phosphogluconate;NADP,ribulose-5-phosphate;CO2;NADPH,false
+R14,Pentose phosphate,ribulose-5-phosphate,ribose-5-phosphate,true
+R15,Pentose phosphate,ribulose-5-phosphate,xylulose-5-phosphate,true
+R16,TCA,pyruvate;CoA;NAD,acetyl-CoA;CO2;NADH,false
+R17,TCA,acetyl-CoA;oxaloacetate;water,citrate;CoA,false
+R18,TCA,citrate,isocitrate,true
+R19,TCA,isocitrate;NAD,alpha-ketoglutarate;CO2;NADH,false
+R20,TCA,alpha-ketoglutarate;CoA;NAD,succinyl-CoA;CO2;NADH,false
+R21,TCA,succinyl-CoA;ADP;phosphate,succinate;CoA;ATP,false
+R22,TCA,succinate;FAD,fumarate;FADH2,false
+R23,TCA,fumarate;water,malate,false
+R24,TCA,malate;NAD,oxaloacetate;NADH,false
+R25,Anaplerotic,phosphoenolpyruvate;CO2,oxaloacetate,false
